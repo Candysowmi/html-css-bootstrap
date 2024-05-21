@@ -1,0 +1,61 @@
+body{
+    background-image:linear-gradient(-40deg,rgba(242, 7, 38, 0.953),rgba(211, 11, 38, 0.953),rgba(174, 13, 34, 0.953),rgba(129, 24, 56, 0.953),rgba(129, 24, 77, 0.953),rgba(129, 24, 101, 0.953),rgba(129, 24, 129, 0.953),rgba(88, 23, 105, 0.953),rgba(57, 22, 95, 0.953),rgba(53, 13, 97, 0.953),rgb(13, 14, 76),rgb(12, 13, 69),rgb(7, 7, 49)); 
+    /* background-color: rgb(4, 4, 34); */
+    background-attachment:fixed;
+}
+div{
+   background-image: linear-gradient(-40deg,rgba(255, 72, 0, 0.864),rgba(255, 106, 0, 0.864),rgba(255, 204, 0, 0.864),rgba(255, 179, 0, 0.848),rgba(255, 204, 0, 0.848));
+    width: 1000px;
+    height: 500px;
+    margin-right: 100px;
+    margin-top: 130px;
+    margin-left: 250px;
+    margin-bottom:50px;
+    border-radius:0px 50px 0px 50px;
+} 
+h1{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 2px white;
+}
+form{
+    color:white;
+    padding-left: 250px;
+}
+input[type=text],input[type=password]{
+    width: 500px;
+    height: 35px;
+}
+label{
+    font-size: large;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+button{
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    
+}
+button:hover{
+    cursor: pointer;background-image: linear-gradient(-40deg,rgba(255, 72, 0, 0.864),rgba(255, 106, 0, 0.864),rgba(255, 204, 0, 0.864),rgba(255, 179, 0, 0.848),rgba(255, 204, 0, 0.848));
+}
+h4{
+    color:rgb(211, 64, 64);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding-left: 250px;
+}
+a{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding-left: 250px;
+    font-size: larger;
+
+}

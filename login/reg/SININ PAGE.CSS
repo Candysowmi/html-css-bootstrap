@@ -1,0 +1,77 @@
+body{
+    background-image:linear-gradient(-40deg,rgba(242, 7, 38, 0.953),rgba(211, 11, 38, 0.953),rgba(174, 13, 34, 0.953),rgba(129, 24, 56, 0.953),rgba(129, 24, 77, 0.953),rgba(129, 24, 101, 0.953),rgba(129, 24, 129, 0.953),rgba(88, 23, 105, 0.953),rgba(57, 22, 95, 0.953),rgba(53, 13, 97, 0.953),rgb(13, 14, 76),rgb(12, 13, 69),rgb(7, 7, 49)); 
+    /* background-color: rgb(4, 4, 34); */
+    background-attachment:fixed;
+}
+.node{
+    background-image: linear-gradient(-40deg,rgba(255, 72, 0, 0.864),rgba(255, 106, 0, 0.864),rgba(255, 204, 0, 0.864),rgba(255, 179, 0, 0.848),rgba(255, 204, 0, 0.848));
+    width: 1000px;
+    height: 500px;
+    margin-right: 100px;
+    margin-top: 130px;
+    margin-left: 250px;
+    margin-bottom:50px;
+    /* text-align: center; */
+    color: white;
+    font-size:larger;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 50px 0px 50px 0px;
+
+}
+.parent{
+    display: grid;
+    grid-template-columns:100px 100px;
+}
+.child1{
+    width: 500px;
+    height: 300px;
+    border-right: 1px solid black;
+    
+}
+.child2{
+    margin-left:400px;
+    width: 500px;
+    height: 300px;
+   
+    
+}
+input[type=text],input[type=password],input[type=email],input[type=tel],input[type=date]{
+    width: 350px;;
+    height: 20px;
+    margin-left:50px;
+
+}
+label{
+    font-size: large;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-left: 50px;
+    
+}
+button{
+    width: 500px;
+    height: 35px;
+    border-radius: 8px;
+    margin-left: -0%;
+    margin-top: 20px;
+    background-color: rgba(190, 158, 28, 0.76);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size:larger;
+    color: rgba(16, 16, 16, 0.844);
+    margin-left: 250px;
+}
+button:hover{
+    cursor: pointer;background-image: linear-gradient(-40deg,rgba(255, 72, 0, 0.864),rgba(255, 106, 0, 0.864),rgba(255, 204, 0, 0.864),rgba(255, 179, 0, 0.848),rgba(255, 204, 0, 0.848));
+}
+a{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding-left: 250px;
+    font-size: larger;
+    margin-top: 20px;
+
+}
